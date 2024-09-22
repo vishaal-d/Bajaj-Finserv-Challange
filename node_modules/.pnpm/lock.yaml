@@ -14,6 +14,9 @@ dependencies:
   express:
     specifier: ^4.21.0
     version: 4.21.0
+  mkdirp:
+    specifier: ^3.0.1
+    version: 3.0.1
   multer:
     specifier: 1.4.5-lts.1
     version: 1.4.5-lts.1
@@ -367,6 +370,12 @@ packages:
     hasBin: true
     dependencies:
       minimist: 1.2.8
+    dev: false
+
+  /mkdirp@3.0.1:
+    resolution: {integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==}
+    engines: {node: '>=10'}
+    hasBin: true
     dev: false
 
   /ms@2.0.0:
